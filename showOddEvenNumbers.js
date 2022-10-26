@@ -4,6 +4,8 @@
 //and show "ODD"/"EVEN" next to the number
 function showNumbers(limit){
     for(let i = 0; i <= limit;i++){
-        return (i/2 === 1) ? i+'ODD':i+'EVEN'
+        (i%2 === 1) ? console.log(i+' ODD'):console.log(i+' EVEN');
     }
 }
+
+console.log(showNumbers(13));
