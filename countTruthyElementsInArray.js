@@ -5,7 +5,7 @@ function countTruthy(array){
     let counter = 0;
     for (let iterator of array) 
         if(iterator) counter++;
-    return counter;
+    return counter;//return 值不会显示，但是console的会
 }
 
 console.log(countTruthy([1,0,'',3,4,null,undefined]));
