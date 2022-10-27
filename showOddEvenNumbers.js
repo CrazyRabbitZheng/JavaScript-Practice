@@ -8,4 +8,4 @@ function showNumbers(limit){
     }
 }
 
-console.log(showNumbers(13));
+showNumbers(13);
